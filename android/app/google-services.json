@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "105385620592",
+    "project_id": "planto-planto-faac5",
+    "storage_bucket": "planto-planto-faac5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105385620592:android:a0d6c2b436049bf51a30b5",
+        "android_client_info": {
+          "package_name": "com.example.planto_planto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF0ephpnbNxD1mz9DIgPF7wQHBmjQoi6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

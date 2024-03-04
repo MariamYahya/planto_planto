@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB9tZl-rn3wPQtnZi1UW1q-UP2VfVOjeFQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>105385620592</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.plantoPlanto</string>
+	<key>PROJECT_ID</key>
+	<string>planto-planto-faac5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>planto-planto-faac5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:105385620592:ios:4f6203c99d4ba9ed1a30b5</string>
+</dict>
+</plist>
