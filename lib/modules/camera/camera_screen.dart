@@ -33,7 +33,7 @@ class _CameraScreenState extends State<CameraScreen> {
           child: Scaffold(
             backgroundColor: Colors.transparent,
             body: Padding(
-              padding: EdgeInsets.symmetric(vertical: 100, horizontal: 40),
+              padding: EdgeInsets.symmetric(vertical: 80, horizontal: 40),
               child: Column(
                 children: [
                   isImageSelected
@@ -48,8 +48,8 @@ class _CameraScreenState extends State<CameraScreen> {
                           ),
                         )
                       : Container(
-                          width: 224,
-                          height: 224,
+                          width: 256,
+                          height: 256,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: AssetImage("assets/images/test.jpg"),
@@ -62,17 +62,17 @@ class _CameraScreenState extends State<CameraScreen> {
                   ),
                   ResultDetails(),
                   SizedBox(
-                    height: 150,
+                    height: 100,
                   ),
                   GestureDetector(
                     onTap: () => _pickImageFromCamera(),
                     child: CircleAvatar(
                       backgroundColor: Colors.white,
-                      radius: 40,
+                      radius: 25,
                       child: Icon(
                         Icons.photo_camera,
                         color: Color(0xFF093923),
-                        size: 40,
+                        size: 30,
                       ),
                     ),
                   ),
