@@ -11,7 +11,6 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // var mediaQuery = MediaQuery.of(context).size;
     var theme = Theme.of(context);
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 50),

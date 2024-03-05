@@ -31,18 +31,28 @@ class RobotControlView extends StatelessWidget {
                   height: mediaQuery.height * 0.5,
                   color: Colors.white,
                 ),
-                SizedBox(height: 100,),
+                SizedBox(
+                  height: 100,
+                ),
                 ControlButtonDesign(icon: Icons.keyboard_arrow_up_rounded),
-                SizedBox(height: 30,),
+                SizedBox(
+                  height: 10,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    ControlButtonDesign(icon: Icons.keyboard_arrow_left_rounded),
-                    SizedBox(width: 100,),
-                    ControlButtonDesign(icon: Icons.keyboard_arrow_right_rounded),
+                    ControlButtonDesign(
+                        icon: Icons.keyboard_arrow_left_rounded),
+                    SizedBox(
+                      width: 100,
+                    ),
+                    ControlButtonDesign(
+                        icon: Icons.keyboard_arrow_right_rounded),
                   ],
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 ControlButtonDesign(icon: Icons.keyboard_arrow_down_rounded),
               ],
             ),

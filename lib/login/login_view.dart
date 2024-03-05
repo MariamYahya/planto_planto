@@ -72,7 +72,9 @@ class _LoginViewState extends State<LoginView> {
                           SizedBox(height: 5),
                           Text(
                             "We’re so excited to see you again",
-                            style: theme.textTheme.titleSmall,
+                            style: theme.textTheme.titleSmall!.copyWith(
+                                color: Color(0xFF093923),
+                                fontWeight: FontWeight.normal),
                             textAlign: TextAlign.center,
                           ),
                           SizedBox(height: 30),
@@ -164,6 +166,7 @@ class _LoginViewState extends State<LoginView> {
                               "Forget your password?",
                               style: theme.textTheme.displaySmall!.copyWith(
                                 decoration: TextDecoration.underline,
+                                color: Color(0xFF093923),
                               ),
                             ),
                           ),
@@ -216,6 +219,7 @@ class _LoginViewState extends State<LoginView> {
                                   "Register",
                                   style: theme.textTheme.displaySmall!.copyWith(
                                     decoration: TextDecoration.underline,
+                                    color: Color(0xFF093923),
                                   ),
                                 ),
                               ),

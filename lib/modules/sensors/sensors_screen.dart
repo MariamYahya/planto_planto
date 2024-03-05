@@ -13,10 +13,11 @@ class SensorsScreen extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-            image: AssetImage("assets/images/backgroundtest.png"),
-            fit: BoxFit.cover,
-            colorFilter: ColorFilter.mode(
-                Colors.grey.withOpacity(0.8), BlendMode.dstATop)),
+          image: AssetImage("assets/images/backgroundtest.png"),
+          fit: BoxFit.cover,
+          colorFilter:
+              ColorFilter.mode(Colors.grey.withOpacity(0.8), BlendMode.dstATop),
+        ),
       ),
       child: ClipRRect(
         child: BackdropFilter(
