@@ -12,14 +12,14 @@ class ResultDetails extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
-            "Result: ",
+            "Result: yes",
             style: theme.textTheme.bodyMedium,
           ),
           SizedBox(
             height: 20,
           ),
           Text(
-            "Kind: ",
+            "Kind: yellow rust",
             style: theme.textTheme.bodyMedium,
           ),
         ],

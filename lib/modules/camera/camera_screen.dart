@@ -52,7 +52,8 @@ class _CameraScreenState extends State<CameraScreen> {
                           height: 256,
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage("assets/images/test.jpg"),
+                              image:
+                                  AssetImage("assets/images/yellow_rust.jpg"),
                               fit: BoxFit.cover,
                             ),
                           ),

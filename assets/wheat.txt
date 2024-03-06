@@ -1,0 +1,11 @@
+ Wheat is the most important and dominating crop in Pakistan in terms of production and
+acreage, which is grown on 37% of the cultivated area, accounting for 70% of the total production. However,
+wheat yield is highly affected by stripe rust, which is considered the most devastating fungal disease,
+causing 5.5 million tonnes of loss per year globally. In order to minimize this loss, the accurate and
+timely detection of rust disease is crucial instead of manual inspection. Towards this end, we propose a
+system to detect wheat rust disease and classify its infection types into four classes, including healthy,
+resistant, moderate (moderately resistant to moderately susceptible), and susceptible. The wheat rust dataset
+is collected indigenously from the National Agricultural Research Centre, Islamabad. A pre-trained U2 Net
+model is used to remove the background and extract the leaf containing the rust disease. Subsequently, two
+deep learning classifiers, including the Xception model and ResNet-50 are applied to classify the stripe rust
+severity levels, where the ResNet-50 model outperformed with the highest accuracy of 96%.
